@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trust.rightway.ai/sitemap.xml

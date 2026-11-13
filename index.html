@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RightWay AI — AI Productivity Workspace &amp; Educational Guidance Suite</title>
-  <meta name="description" content="RightWay AI builds intelligent productivity and educational guidance software, including Polaris Agent desktop workspace, RightWay One, and RightWay School OS." />
+  <title>RightWay AI</title>
+  <meta name="application-name" content="RightWay AI" />
+  <meta name="description" content="RightWay AI provides AI-assisted academic planning software and the Polaris Agent desktop productivity and email workspace." />
   <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/png" href="https://trust.rightway.ai/logo.png" />
   <link rel="canonical" href="https://trust.rightway.ai/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="RightWay AI" />
-  <meta property="og:title" content="RightWay AI — AI Productivity Workspace &amp; Educational Guidance Suite" />
-  <meta property="og:description" content="Official product overview, security architecture, Google OAuth transparency, Privacy Policy, and Terms of Service for RightWay AI." />
+  <meta property="og:title" content="RightWay AI" />
+  <meta property="og:image" content="https://trust.rightway.ai/logo.png" />
+  <meta property="og:description" content="RightWay AI provides academic roadmap counseling platforms and the Polaris Agent macOS productivity and email client workspace." />
   <meta property="og:url" content="https://trust.rightway.ai/" />
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -37,22 +40,17 @@
     .brand {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      font-size: 1.25rem;
+      gap: 12px;
+      font-size: 1.3rem;
       font-weight: 700;
       color: #0f172a;
       text-decoration: none;
     }
-    .brand-mark {
-      width: 34px;
-      height: 34px;
+    .brand img {
+      width: 36px;
+      height: 36px;
       border-radius: 8px;
-      background: #0f172a;
-      color: #f59e0b;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
+      display: block;
     }
     nav {
       display: flex;
@@ -79,24 +77,26 @@
       margin-bottom: 32px;
       box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
     }
-    .eyebrow {
-      font-size: 0.82rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #b45309;
-      margin-bottom: 10px;
+    .hero-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .hero-brand img {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
     }
     h1 {
       font-size: 2.35rem;
       line-height: 1.2;
-      margin-bottom: 16px;
       color: #0f172a;
     }
     .lead {
       font-size: 1.12rem;
       color: #475569;
-      max-width: 760px;
+      max-width: 780px;
       margin-bottom: 24px;
     }
     .cta-row {
@@ -175,75 +175,74 @@
   <header>
     <div class="nav-wrap">
       <a class="brand" href="https://trust.rightway.ai/">
-        <span class="brand-mark">R</span>
+        <img src="https://trust.rightway.ai/logo.png" alt="RightWay AI logo" />
         <span>RightWay AI</span>
       </a>
       <nav aria-label="Primary navigation">
         <a href="https://trust.rightway.ai/">Home</a>
-        <a href="https://www.rightway.ai/">RightWay.AI Portal</a>
-        <a href="https://one.rightway.ai/">RightWay One</a>
-        <a href="https://trust.rightway.ai/privacy-policy">Privacy Policy</a>
-        <a href="https://trust.rightway.ai/terms-of-service">Terms of Service</a>
+        <a href="https://trust.rightway.ai/privacy-policy.html">Privacy Policy</a>
+        <a href="https://trust.rightway.ai/terms-of-service.html">Terms of Service</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <p class="eyebrow">Official Application &amp; Trust Center</p>
-      <h1>RightWay AI</h1>
+      <div class="hero-brand">
+        <img src="https://trust.rightway.ai/logo.png" alt="RightWay AI" />
+        <h1>RightWay AI</h1>
+      </div>
       <p class="lead">
-        RightWay AI, Inc. develops AI-assisted productivity workspaces and academic planning platforms that help students, educators, and knowledge teams organize projects, draft communications, and collaborate securely. No sign-in is required to review our product documentation, data practices, or legal policies.
+        RightWay AI is a software platform for academic planning, college counseling workflows, and developer productivity. RightWay AI builds the Polaris Agent macOS desktop workspace, RightWay One student planning suite, and RightWay School OS institutional counseling software to help students, educators, and engineering teams organize projects and manage email communications efficiently.
       </p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="https://trust.rightway.ai/privacy-policy">Read Privacy Policy</a>
-        <a class="btn btn-secondary" href="https://trust.rightway.ai/terms-of-service">Terms of Service</a>
-        <a class="btn btn-secondary" href="https://www.rightway.ai/">Visit Main Website</a>
+        <a class="btn btn-primary" href="https://trust.rightway.ai/privacy-policy.html">Privacy Policy</a>
+        <a class="btn btn-secondary" href="https://trust.rightway.ai/terms-of-service.html">Terms of Service</a>
       </div>
     </section>
 
-    <h2 style="margin-bottom: 16px;">What RightWay AI Does</h2>
+    <h2 style="margin-bottom: 16px;">Application Purpose &amp; Core Features</h2>
     <div class="grid">
       <article class="card">
-        <h3>Polaris Agent Desktop Workspace</h3>
+        <h3>Polaris Agent Desktop Email &amp; Coding Workspace</h3>
         <p>
-          A native macOS productivity and coding workspace built by RightWay AI. Users can inspect local project files, run approved workflows, and optionally connect their own Gmail or Outlook account via OAuth 2.0 PKCE to search, read, draft, label, and send user-approved emails directly from their Mac.
+          A native macOS desktop application developed by RightWay AI. Users manage local software projects, run developer workflows, and optionally connect their Gmail or Microsoft Outlook mailbox via OAuth 2.0 PKCE to search messages, triage threads, prepare drafts, and send user-approved emails directly on their Mac.
         </p>
       </article>
       <article class="card">
-        <h3>RightWay One Counseling Suite</h3>
+        <h3>RightWay One Academic Planning</h3>
         <p>
-          Personalized college admissions planning, milestone tracking, essay review, and academic roadmap guidance for students and families, supporting Google Sign-In authentication for streamlined account access.
+          Structured college preparation software that helps students and families plan coursework, track application milestones, organize writing drafts, and coordinate counseling tasks with verified Google OAuth account identity.
         </p>
       </article>
       <article class="card">
         <h3>RightWay School OS</h3>
         <p>
-          Institutional academic operations software for partner schools and counselors to coordinate student progress, advising notes, and application timelines with strict role-based access controls.
+          Academic advising operations software for partner schools and counselors to coordinate advising schedules, student progress records, and application timelines with role-based security controls.
         </p>
       </article>
     </div>
 
     <section class="section-box">
-      <h2>How RightWay AI Uses Google Sign-In &amp; Gmail APIs</h2>
+      <h2>Why RightWay AI Requests Google User Data</h2>
       <p>
-        RightWay AI integrates with Google OAuth 2.0 strictly on an opt-in basis when you choose to sign in with Google or connect your Gmail account inside our native desktop client:
+        RightWay AI accesses Google APIs strictly on an opt-in basis to deliver user-requested identity and email productivity features:
       </p>
       <ul>
-        <li><strong>Account Sign-In (<code>openid</code>, <code>userinfo.email</code>, <code>userinfo.profile</code>):</strong> Authenticates your identity and displays your name and email address in the application interface.</li>
-        <li><strong>Email Productivity &amp; Client Actions (<code>gmail.modify</code>, <code>gmail.compose</code>, <code>gmail.send</code>):</strong> Used exclusively when you explicitly connect Gmail inside the Polaris Agent macOS desktop app so you can search and read threads, update labels (such as marking messages read or archiving), create drafts for review, and send user-approved replies.</li>
-        <li><strong>Local Keychain Security:</strong> Desktop Gmail OAuth tokens are encrypted locally in your computer's macOS Keychain and are never stored on RightWay AI servers.</li>
-        <li><strong>Google API Limited Use Compliance:</strong> RightWay AI's use and transfer to any other app of information received from Google APIs adheres strictly to the Google API Services User Data Policy, including the Limited Use requirements. We never sell user data, never use Google user data for advertising, and never use Gmail data to train generalized AI models.</li>
+        <li><strong>Identity &amp; Profile (<code>openid</code>, <code>userinfo.email</code>, <code>userinfo.profile</code>):</strong> Verifies your Google account identity and displays your name, email address, and profile avatar within RightWay AI applications.</li>
+        <li><strong>Email Client &amp; Productivity (<code>gmail.modify</code>, <code>gmail.compose</code>, <code>gmail.send</code>):</strong> Used only when you explicitly connect Gmail inside the Polaris Agent macOS desktop application so you can search and read messages, update thread labels, save drafts for review, and send emails after your explicit confirmation.</li>
+        <li><strong>Local macOS Keychain Token Storage:</strong> Desktop Gmail OAuth tokens are encrypted locally in your computer's macOS Keychain and are never stored on RightWay AI cloud servers.</li>
+        <li><strong>Google API Services User Data Policy Compliance:</strong> RightWay AI's use and transfer to any other app of information received from Google APIs adheres strictly to the Google API Services User Data Policy, including the Limited Use requirements. RightWay AI never sells user data, never uses Google data for advertising, and never uses Gmail content to train generalized AI models.</li>
       </ul>
     </section>
 
     <section class="section-box">
-      <h2>Acceptable Use &amp; Safety Commitment</h2>
+      <h2>Google API Terms of Service &amp; Responsible Text Productivity</h2>
       <p>
-        RightWay AI products are strictly productivity, software engineering, and educational tools. All services comply fully with the Google API Terms of Service. RightWay AI does not generate synthetic images of individuals and strictly prohibits spam, unauthorized access, deceptive behavior, or any non-consensual intimate content (including AI NCII).
+        RightWay AI is exclusively a text-based software engineering, email productivity, and educational planning toolset, and complies fully with the Google API Terms of Service. RightWay AI does not offer consumer media manipulation, avatar synthesis, or visual likeness generation features.
       </p>
       <p style="margin-bottom: 0;">
-        Questions about security or privacy? Contact RightWay AI, Inc. at <a href="mailto:evan@rightway.ai">evan@rightway.ai</a> or <a href="mailto:ran759771@gmail.com">ran759771@gmail.com</a>.
+        Support &amp; Privacy Contact: RightWay AI, Inc. — <a href="mailto:ran759771@gmail.com">ran759771@gmail.com</a> / <a href="mailto:evan@rightway.ai">evan@rightway.ai</a>.
       </p>
     </section>
   </main>
@@ -253,9 +252,9 @@
       <div>&copy; 2026 RightWay AI, Inc. All rights reserved.</div>
       <div class="footer-links">
         <a href="https://trust.rightway.ai/">Home</a>
-        <a href="https://trust.rightway.ai/privacy-policy">Privacy Policy</a>
-        <a href="https://trust.rightway.ai/terms-of-service">Terms of Service</a>
-        <a href="https://www.rightway.ai/">RightWay.AI</a>
+        <a href="https://trust.rightway.ai/privacy-policy.html">Privacy Policy</a>
+        <a href="https://trust.rightway.ai/terms-of-service.html">Terms of Service</a>
+        <a href="mailto:ran759771@gmail.com">Contact Support</a>
       </div>
     </div>
   </footer>
